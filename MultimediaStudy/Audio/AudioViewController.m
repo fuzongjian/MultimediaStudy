@@ -73,7 +73,7 @@
     UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:@"save?" message:@"give filename" delegate:self cancelButtonTitle:@"cancle" otherButtonTitles:@"sure", nil];
     alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
     UITextField * textField = [alertView textFieldAtIndex:0];
-    textField.text = @"录音－1";
+    textField.text = @"录音－01";
     [alertView show];
 }
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{

@@ -23,6 +23,7 @@
 		74E7C1461D2E6C7300466346 /* MeterLavel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7C1411D2E6C7300466346 /* MeterLavel.m */; };
 		74E7C1471D2E6C7300466346 /* MeterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7C1431D2E6C7300466346 /* MeterTable.m */; };
 		74E7C1481D2E6C7300466346 /* MeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7C1451D2E6C7300466346 /* MeterView.m */; };
+		74F91AD11D3366C900ABCA9C /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F91AD01D3366C900ABCA9C /* VideoPlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		74E7C1431D2E6C7300466346 /* MeterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterTable.m; sourceTree = "<group>"; };
 		74E7C1441D2E6C7300466346 /* MeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterView.h; sourceTree = "<group>"; };
 		74E7C1451D2E6C7300466346 /* MeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterView.m; sourceTree = "<group>"; };
+		74F91ACF1D3366C900ABCA9C /* VideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayView.h; sourceTree = "<group>"; };
+		74F91AD01D3366C900ABCA9C /* VideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 			children = (
 				74E7C12F1D2DE7FB00466346 /* VideoViewController.h */,
 				74E7C1301D2DE7FB00466346 /* VideoViewController.m */,
+				74F91ACF1D3366C900ABCA9C /* VideoPlayView.h */,
+				74F91AD01D3366C900ABCA9C /* VideoPlayView.m */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				74E7C1461D2E6C7300466346 /* MeterLavel.m in Sources */,
 				74E7C13B1D2DFF9A00466346 /* AudioRecorder.m in Sources */,
 				74E7C12E1D2DE7E400466346 /* AudioViewController.m in Sources */,
+				74F91AD11D3366C900ABCA9C /* VideoPlayView.m in Sources */,
 				74E7C1471D2E6C7300466346 /* MeterTable.m in Sources */,
 				74E7C1341D2DEF3800466346 /* AudioReader.m in Sources */,
 				74E7C1481D2E6C7300466346 /* MeterView.m in Sources */,
